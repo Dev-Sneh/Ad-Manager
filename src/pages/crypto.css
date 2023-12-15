@@ -1,0 +1,135 @@
+/* Services.css */
+
+.services-container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.services-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    /* gap: 12px; */
+    margin-top: 30px;
+}
+
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 43px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.color {
+    color: rgb(36, 151, 55);
+}
+
+.service-info {
+    padding: 5px;
+    background-color: #fff;
+}
+
+.service-info h3 {
+    margin-bottom: 10px;
+    color: #a02222;
+}
+
+.service-description {
+    color: #666;
+}
+
+.service-price {
+    color: #1d0303;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.buy-button {
+    background-color: #3498db;
+    /* Blue background color */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #2980b9;
+    /* Hover color */
+}
+
+
+
+
+
+ul {
+    text-align: left;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.head1 {
+    color: rgb(206, 174, 33);
+}
+
+.head2 {
+    color: darkcyan;
+}
+
+.head3 {
+    color: green;
+}
+
+.tick-icon {
+    color: green;
+    margin-right: 10px;
+}
+
+.tick-icon-orange {
+    color: orange;
+    margin-right: 10px;
+}
+
+.tick-icon-blue {
+    color: darkcyan;
+    margin-right: 10px;
+}
+
+
+.container-about h1 {
+    display: inline-block;
+    font-size: 2.2rem;
+    padding: 12px;
+    border-bottom: solid red;
+    margin: 33px;
+
+}
+
+.container-about p {
+    font-size: 1.3rem;
+}

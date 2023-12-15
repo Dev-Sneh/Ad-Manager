@@ -1,0 +1,140 @@
+
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.leftside {
+    background-color: rgb(247, 246, 245);
+    height: 60%;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.profile-name {
+    background-color: white;
+    width: 100%;
+    height: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 25px;
+    gap: 10px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-self: start;
+    justify-content: start;
+    /* background-color: red; */
+    border-radius: 50%;
+    margin-bottom: 8px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.name>h3 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(96, 96, 96);
+    margin: 4px 0px;
+}
+
+.name>h4 {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1px;
+    color: rgb(135, 134, 134);
+    line-height: 23px;
+}
+
+.available-balance {
+    background-color: white;
+    width: 100%;
+    height: 26%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.available-balance>h4 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(135, 134, 134);
+    line-height: 25px;
+    margin: 2px;
+}
+
+.available-balance>p {
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: 640;
+}
+
+.send-receive {
+    background-color: white;
+    width: 100%;
+    height: 41%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.money {
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1vw;
+    gap: 10px;
+}
+
+.money>h4 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(135, 134, 134);
+}
+
+.money>p {
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.money>button {
+    padding: 5px 24px;
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+    background-color: #449eec;
+
+}
+
+.rightside {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 60%;
+    width: 60%;
+}
